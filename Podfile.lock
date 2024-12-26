@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_nfc_kit (2.0.0):
+    - Flutter
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+    - flutter_nfc_kit
+
+DEPENDENCIES:
+  - Flutter (from `../../Flutter/module_ekyc/.ios/Flutter`)
+  - flutter_nfc_kit (from `../../Flutter/module_ekyc/.ios/.symlinks/plugins/flutter_nfc_kit/ios`)
+  - FlutterPluginRegistrant (from `../../Flutter/module_ekyc/.ios/Flutter/FlutterPluginRegistrant`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../../Flutter/module_ekyc/.ios/Flutter"
+  flutter_nfc_kit:
+    :path: "../../Flutter/module_ekyc/.ios/.symlinks/plugins/flutter_nfc_kit/ios"
+  FlutterPluginRegistrant:
+    :path: "../../Flutter/module_ekyc/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_nfc_kit: 965c98c3fa68f5609f1cc89abb968fe1b8ffdbaa
+  FlutterPluginRegistrant: 92c72784c44bdf8e8d7dd5112d8be5bab4a1446e
+
+PODFILE CHECKSUM: 22404c02e7eecd5ab8d04d5cbb600f564d00373a
+
+COCOAPODS: 1.16.2

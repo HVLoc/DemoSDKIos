@@ -1,0 +1,1241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B26E11467D023FA6CDCE36F75198812F /* Build configuration list for PBXAggregateTarget "Flutter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Flutter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3D6FD904AF4B2A5663A91761362F6589 /* FlutterPluginRegistrant-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C4A87A241B90A97086A54D044187AC /* FlutterPluginRegistrant-dummy.m */; };
+		5A898C5018D0ED645FC90CE6AEC69CA3 /* flutter_nfc_kit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86478C03DBDB3E34D53A23726CB2F025 /* flutter_nfc_kit-dummy.m */; };
+		724EF44C9D0AB42F413A699DB84EE3B5 /* SwiftFlutterNfcKitPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BE615E46D44FEAD976478337F418C4 /* SwiftFlutterNfcKitPlugin.swift */; };
+		77FA4FB251ADAA354C6249D855EEF8CD /* Pods-DemoSDKIos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9050D8A09BCBF2D039DFA1CA03506D21 /* Pods-DemoSDKIos-dummy.m */; };
+		7E0B875B48A555A08F738629A737BC7B /* FlutterNfcKitPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E4534DEA0CD50D7F60E84E1C1FA6927B /* FlutterNfcKitPlugin.m */; };
+		7E385871DD3A91C128FCA1EAB1A1DA3E /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4D905092B734782876B79C62C7D4F3 /* GeneratedPluginRegistrant.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8F523047FFB22441C28BAC302A09B47A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		AB104C586AC97A0DE9633F2409923FE8 /* Pods-DemoSDKIos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0B3B91D5C75E18E58068B4C8496C56F /* Pods-DemoSDKIos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9DE7F53109C3138DBEDFCD0523883DB /* FlutterNfcKitPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 017CB783D1242892E14C0C0511E8B7D8 /* FlutterNfcKitPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA0E9AB47D5E6B59BE82444D3109185C /* GeneratedPluginRegistrant.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A4B0219FE9CC5AAEEFC22538916A56B /* GeneratedPluginRegistrant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF7AE737663140876333410B9CAE98F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		C0A49DFBC2B4BBBF1E44CEF174031590 /* FlutterPluginRegistrant-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84FF8D5741A8B885FE70047C50210B9D /* FlutterPluginRegistrant-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFD8393C3FD57F9F5FEF38FC4FA471F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		EAD6C588130A040E5FEC220CACB5AEF8 /* flutter_nfc_kit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1547F1E471269C29422B042E440CDA1F /* flutter_nfc_kit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17CFB416BE2D1DF014B1784510EDA1F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83DAA8F43D74F8D51203DE23C7C3A3F5;
+			remoteInfo = FlutterPluginRegistrant;
+		};
+		4EBCD5CC02F68E00BC4E74E1963B045D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		623020CD05E7290D67850C6A7FFF2D23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA784EBA93CD20A860998BE528FF3D64;
+			remoteInfo = flutter_nfc_kit;
+		};
+		88CAD0F991CE69C37B850BC06A54E71B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+		98AC9A6398DE498A781E624DF96ABD08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA784EBA93CD20A860998BE528FF3D64;
+			remoteInfo = flutter_nfc_kit;
+		};
+		C8B8364B1900CC12CBA1BCB73C0E999D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFDDC32A34D56D411E640A81DCD9E73;
+			remoteInfo = Flutter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0176F03EB9E2A52EA90C5D67250E63E2 /* Pods-DemoSDKIos-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoSDKIos-frameworks.sh"; sourceTree = "<group>"; };
+		017CB783D1242892E14C0C0511E8B7D8 /* FlutterNfcKitPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlutterNfcKitPlugin.h; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_nfc_kit-3.4.2/ios/Classes/FlutterNfcKitPlugin.h"; sourceTree = "<group>"; };
+		0248AEC36B3D904ED320FAC38CE8E769 /* FlutterPluginRegistrant-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterPluginRegistrant-prefix.pch"; sourceTree = "<group>"; };
+		1140E256642963FC2F1ECF34501436AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1547F1E471269C29422B042E440CDA1F /* flutter_nfc_kit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_nfc_kit-umbrella.h"; sourceTree = "<group>"; };
+		27207F1A41855609477DA9BF11816D06 /* FlutterPluginRegistrant.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FlutterPluginRegistrant.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2A4B0219FE9CC5AAEEFC22538916A56B /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeneratedPluginRegistrant.h; path = Classes/GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
+		30950E8EF429B5777085CBB64997EAAC /* flutter_nfc_kit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = flutter_nfc_kit.podspec; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_nfc_kit-3.4.2/ios/flutter_nfc_kit.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		30AD55CDD2A158CE94A5EB9774142202 /* Pods-DemoSDKIos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoSDKIos-Info.plist"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		42C65C7C7B96BDFE6AF6F5067298BBA8 /* Pods-DemoSDKIos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoSDKIos-acknowledgements.plist"; sourceTree = "<group>"; };
+		489D06E300DE083536EFBEE701506DDF /* flutter_nfc_kit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = flutter_nfc_kit.release.xcconfig; sourceTree = "<group>"; };
+		4FA9C66365AC5167765008D3B483036A /* Flutter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.debug.xcconfig; sourceTree = "<group>"; };
+		4FB8D36690CF9EFBBA09A0D886957716 /* Pods-DemoSDKIos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoSDKIos.release.xcconfig"; sourceTree = "<group>"; };
+		5EF3C4CBFAC7BA5A92750DAFA4F1A1B9 /* flutter_nfc_kit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_nfc_kit-prefix.pch"; sourceTree = "<group>"; };
+		681D5ADE2BF62925E6B4085731EE7558 /* FlutterPluginRegistrant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterPluginRegistrant.release.xcconfig; sourceTree = "<group>"; };
+		6D5F28750D6B12CEF5F477B54C2F1CF9 /* Pods-DemoSDKIos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoSDKIos.modulemap"; sourceTree = "<group>"; };
+		741D964F1E929BEDF521849D22FAF7DF /* FlutterPluginRegistrant-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FlutterPluginRegistrant-Info.plist"; sourceTree = "<group>"; };
+		84FF8D5741A8B885FE70047C50210B9D /* FlutterPluginRegistrant-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterPluginRegistrant-umbrella.h"; sourceTree = "<group>"; };
+		86478C03DBDB3E34D53A23726CB2F025 /* flutter_nfc_kit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "flutter_nfc_kit-dummy.m"; sourceTree = "<group>"; };
+		9050D8A09BCBF2D039DFA1CA03506D21 /* Pods-DemoSDKIos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoSDKIos-dummy.m"; sourceTree = "<group>"; };
+		92089308A195F36203D386F31E1A0355 /* flutter_nfc_kit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = flutter_nfc_kit.modulemap; sourceTree = "<group>"; };
+		96C4A87A241B90A97086A54D044187AC /* FlutterPluginRegistrant-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlutterPluginRegistrant-dummy.m"; sourceTree = "<group>"; };
+		9C9E08B8C8A0D9272D48B052D0B32E7F /* flutter_nfc_kit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = flutter_nfc_kit; path = flutter_nfc_kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE40F050BDE66D1C1D0556AFD030D03A /* Pods-DemoSDKIos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoSDKIos.debug.xcconfig"; sourceTree = "<group>"; };
+		B8BE615E46D44FEAD976478337F418C4 /* SwiftFlutterNfcKitPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftFlutterNfcKitPlugin.swift; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_nfc_kit-3.4.2/ios/Classes/SwiftFlutterNfcKitPlugin.swift"; sourceTree = "<group>"; };
+		B8F03B5EFC9B206E9F01FDEA958558FC /* flutter_nfc_kit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = flutter_nfc_kit.debug.xcconfig; sourceTree = "<group>"; };
+		CF4D905092B734782876B79C62C7D4F3 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GeneratedPluginRegistrant.m; path = Classes/GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		D0B3B91D5C75E18E58068B4C8496C56F /* Pods-DemoSDKIos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoSDKIos-umbrella.h"; sourceTree = "<group>"; };
+		D479A73D5DE336BD90A1F22B044F696E /* Pods-DemoSDKIos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoSDKIos-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DAE13AACF6EAEDB749E0328BBAF645C2 /* FlutterPluginRegistrant.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FlutterPluginRegistrant.modulemap; sourceTree = "<group>"; };
+		DF7C6EBB9161EEF650EC12B4BB67E628 /* FlutterPluginRegistrant */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlutterPluginRegistrant; path = FlutterPluginRegistrant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2D5268B55088983E3F9DB6E51C44214 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_nfc_kit-3.4.2/LICENSE"; sourceTree = "<group>"; };
+		E4534DEA0CD50D7F60E84E1C1FA6927B /* FlutterNfcKitPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlutterNfcKitPlugin.m; path = "../../../../../../../../../.pub-cache/hosted/pub.dev/flutter_nfc_kit-3.4.2/ios/Classes/FlutterNfcKitPlugin.m"; sourceTree = "<group>"; };
+		E5989BB2F27A7935812CF283D6DE331D /* flutter_nfc_kit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "flutter_nfc_kit-Info.plist"; sourceTree = "<group>"; };
+		E932D19446852D3177C18F67F4E83FE7 /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EA6AC67C43EB4C4283715FB212D08DAD /* FlutterPluginRegistrant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterPluginRegistrant.debug.xcconfig; sourceTree = "<group>"; };
+		EA7383DBAD7A5632BD8AEA84592A6601 /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
+		FC14FEE0F2B25B5637E71644F9E36C27 /* Pods-DemoSDKIos */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DemoSDKIos"; path = Pods_DemoSDKIos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C3CC51CDD9768F8EA5A1F06F34E7184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD8393C3FD57F9F5FEF38FC4FA471F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC3128F5696DBB7617BB9BEF8E9902E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F523047FFB22441C28BAC302A09B47A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3054375B1E9696FBCE109D30E492D0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7AE737663140876333410B9CAE98F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		019AF203C87A4460CE41587F3290B81C /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				76568C47458BBE2B75179E997CBE6ABD /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		0E05D2AC289FF8D988B332934F69E2BF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1585F1D00447A05FD7162EC0838EEB49 /* Pods-DemoSDKIos */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0F1CC8F4DBA1EC50B68AA46F89C5A867 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				7678578F32426C6F887137731F1E01E2 /* Pod */,
+				9F0F79A198BDA834EEF690B86E0CCC07 /* Support Files */,
+			);
+			name = Flutter;
+			path = ../../../Flutter/module_ekyc/.ios/Flutter;
+			sourceTree = "<group>";
+		};
+		11FC52BD0FF3CE5997AA6F04575BE8C2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F1CC8F4DBA1EC50B68AA46F89C5A867 /* Flutter */,
+				67EFAC17B65C3555D9FCA4042A52E2E1 /* flutter_nfc_kit */,
+				AFF09A4F8F7AF0F8F58142D8F618F561 /* FlutterPluginRegistrant */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1585F1D00447A05FD7162EC0838EEB49 /* Pods-DemoSDKIos */ = {
+			isa = PBXGroup;
+			children = (
+				6D5F28750D6B12CEF5F477B54C2F1CF9 /* Pods-DemoSDKIos.modulemap */,
+				D479A73D5DE336BD90A1F22B044F696E /* Pods-DemoSDKIos-acknowledgements.markdown */,
+				42C65C7C7B96BDFE6AF6F5067298BBA8 /* Pods-DemoSDKIos-acknowledgements.plist */,
+				9050D8A09BCBF2D039DFA1CA03506D21 /* Pods-DemoSDKIos-dummy.m */,
+				0176F03EB9E2A52EA90C5D67250E63E2 /* Pods-DemoSDKIos-frameworks.sh */,
+				30AD55CDD2A158CE94A5EB9774142202 /* Pods-DemoSDKIos-Info.plist */,
+				D0B3B91D5C75E18E58068B4C8496C56F /* Pods-DemoSDKIos-umbrella.h */,
+				AE40F050BDE66D1C1D0556AFD030D03A /* Pods-DemoSDKIos.debug.xcconfig */,
+				4FB8D36690CF9EFBBA09A0D886957716 /* Pods-DemoSDKIos.release.xcconfig */,
+			);
+			name = "Pods-DemoSDKIos";
+			path = "Target Support Files/Pods-DemoSDKIos";
+			sourceTree = "<group>";
+		};
+		295FB89CF84C501AADCD4053024225B4 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				52BA29A96278F33CBD077A713209A09B /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3BC70AFDA9840E6E0DF25B350D097857 /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				F6B7114333F89BCB9527E97F8FE6F739 /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
+			sourceTree = "<group>";
+		};
+		52BA29A96278F33CBD077A713209A09B /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				019AF203C87A4460CE41587F3290B81C /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		538DEA0EC28C71A101C173E29C3F3111 /* .ios */ = {
+			isa = PBXGroup;
+			children = (
+				3BC70AFDA9840E6E0DF25B350D097857 /* .symlinks */,
+			);
+			name = .ios;
+			path = .ios;
+			sourceTree = "<group>";
+		};
+		67EFAC17B65C3555D9FCA4042A52E2E1 /* flutter_nfc_kit */ = {
+			isa = PBXGroup;
+			children = (
+				E4E8A7F6ACCD4C65DCE15651A344C84B /* .. */,
+				EC6071DBEF67F1363CDC91411FF83DAA /* Pod */,
+				F136224129C0CA976625C39F302C7B34 /* Support Files */,
+			);
+			name = flutter_nfc_kit;
+			path = ../../../Flutter/module_ekyc/.ios/.symlinks/plugins/flutter_nfc_kit/ios;
+			sourceTree = "<group>";
+		};
+		6E80467AA00DC83309438603A7354F7E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAE13AACF6EAEDB749E0328BBAF645C2 /* FlutterPluginRegistrant.modulemap */,
+				96C4A87A241B90A97086A54D044187AC /* FlutterPluginRegistrant-dummy.m */,
+				741D964F1E929BEDF521849D22FAF7DF /* FlutterPluginRegistrant-Info.plist */,
+				0248AEC36B3D904ED320FAC38CE8E769 /* FlutterPluginRegistrant-prefix.pch */,
+				84FF8D5741A8B885FE70047C50210B9D /* FlutterPluginRegistrant-umbrella.h */,
+				EA6AC67C43EB4C4283715FB212D08DAD /* FlutterPluginRegistrant.debug.xcconfig */,
+				681D5ADE2BF62925E6B4085731EE7558 /* FlutterPluginRegistrant.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../../Ios/DemoSDKIos/Pods/Target Support Files/FlutterPluginRegistrant";
+			sourceTree = "<group>";
+		};
+		70D2F35719B65540A91D0B8DE3BA13A5 /* flutter_nfc_kit */ = {
+			isa = PBXGroup;
+			children = (
+				B45C02AAFDC2C6E71507BC9032B018E5 /* ios */,
+			);
+			name = flutter_nfc_kit;
+			path = flutter_nfc_kit;
+			sourceTree = "<group>";
+		};
+		76568C47458BBE2B75179E997CBE6ABD /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				A1D234CE74B40F201BDBC863AC88C3C3 /* .. */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7678578F32426C6F887137731F1E01E2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E932D19446852D3177C18F67F4E83FE7 /* Flutter.podspec */,
+				1140E256642963FC2F1ECF34501436AF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9C5E215743F6F0EE6474681BA10B91C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C9E08B8C8A0D9272D48B052D0B32E7F /* flutter_nfc_kit */,
+				DF7C6EBB9161EEF650EC12B4BB67E628 /* FlutterPluginRegistrant */,
+				FC14FEE0F2B25B5637E71644F9E36C27 /* Pods-DemoSDKIos */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F0F79A198BDA834EEF690B86E0CCC07 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FA9C66365AC5167765008D3B483036A /* Flutter.debug.xcconfig */,
+				EA7383DBAD7A5632BD8AEA84592A6601 /* Flutter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../Ios/DemoSDKIos/Pods/Target Support Files/Flutter";
+			sourceTree = "<group>";
+		};
+		A0A295679B3168E0AC48B467EDD805E2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				27207F1A41855609477DA9BF11816D06 /* FlutterPluginRegistrant.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A1D234CE74B40F201BDBC863AC88C3C3 /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				A92344D1175EDDEFFC3629EA49408D62 /* LocHV */,
+			);
+			name = ..;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A92344D1175EDDEFFC3629EA49408D62 /* LocHV */ = {
+			isa = PBXGroup;
+			children = (
+				D29EB159141D16F2ACB6CC870ACCD5D3 /* Flutter */,
+			);
+			name = LocHV;
+			path = LocHV;
+			sourceTree = "<group>";
+		};
+		AFF09A4F8F7AF0F8F58142D8F618F561 /* FlutterPluginRegistrant */ = {
+			isa = PBXGroup;
+			children = (
+				2A4B0219FE9CC5AAEEFC22538916A56B /* GeneratedPluginRegistrant.h */,
+				CF4D905092B734782876B79C62C7D4F3 /* GeneratedPluginRegistrant.m */,
+				A0A295679B3168E0AC48B467EDD805E2 /* Pod */,
+				6E80467AA00DC83309438603A7354F7E /* Support Files */,
+			);
+			name = FlutterPluginRegistrant;
+			path = ../../../Flutter/module_ekyc/.ios/Flutter/FlutterPluginRegistrant;
+			sourceTree = "<group>";
+		};
+		B100234BF8EDD81D07F950A6A244CEBC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				017CB783D1242892E14C0C0511E8B7D8 /* FlutterNfcKitPlugin.h */,
+				E4534DEA0CD50D7F60E84E1C1FA6927B /* FlutterNfcKitPlugin.m */,
+				B8BE615E46D44FEAD976478337F418C4 /* SwiftFlutterNfcKitPlugin.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B45C02AAFDC2C6E71507BC9032B018E5 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				B100234BF8EDD81D07F950A6A244CEBC /* Classes */,
+			);
+			name = ios;
+			path = ios;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				11FC52BD0FF3CE5997AA6F04575BE8C2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9C5E215743F6F0EE6474681BA10B91C0 /* Products */,
+				0E05D2AC289FF8D988B332934F69E2BF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D29EB159141D16F2ACB6CC870ACCD5D3 /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				F2E4491BD2F81E1D96583450FF9762CE /* module_ekyc */,
+			);
+			name = Flutter;
+			path = Flutter;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E4E8A7F6ACCD4C65DCE15651A344C84B /* .. */ = {
+			isa = PBXGroup;
+			children = (
+				295FB89CF84C501AADCD4053024225B4 /* .. */,
+			);
+			name = ..;
+			path = "../../../../../../../../.pub-cache/hosted/pub.dev/flutter_nfc_kit-3.4.2/ios";
+			sourceTree = "<group>";
+		};
+		EC6071DBEF67F1363CDC91411FF83DAA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				30950E8EF429B5777085CBB64997EAAC /* flutter_nfc_kit.podspec */,
+				E2D5268B55088983E3F9DB6E51C44214 /* LICENSE */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F136224129C0CA976625C39F302C7B34 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92089308A195F36203D386F31E1A0355 /* flutter_nfc_kit.modulemap */,
+				86478C03DBDB3E34D53A23726CB2F025 /* flutter_nfc_kit-dummy.m */,
+				E5989BB2F27A7935812CF283D6DE331D /* flutter_nfc_kit-Info.plist */,
+				5EF3C4CBFAC7BA5A92750DAFA4F1A1B9 /* flutter_nfc_kit-prefix.pch */,
+				1547F1E471269C29422B042E440CDA1F /* flutter_nfc_kit-umbrella.h */,
+				B8F03B5EFC9B206E9F01FDEA958558FC /* flutter_nfc_kit.debug.xcconfig */,
+				489D06E300DE083536EFBEE701506DDF /* flutter_nfc_kit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../../../../Ios/DemoSDKIos/Pods/Target Support Files/flutter_nfc_kit";
+			sourceTree = "<group>";
+		};
+		F2E4491BD2F81E1D96583450FF9762CE /* module_ekyc */ = {
+			isa = PBXGroup;
+			children = (
+				538DEA0EC28C71A101C173E29C3F3111 /* .ios */,
+			);
+			name = module_ekyc;
+			path = module_ekyc;
+			sourceTree = "<group>";
+		};
+		F6B7114333F89BCB9527E97F8FE6F739 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				70D2F35719B65540A91D0B8DE3BA13A5 /* flutter_nfc_kit */,
+			);
+			name = plugins;
+			path = plugins;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		55EF4976BBBFD38921FF8EE1FF034C50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB104C586AC97A0DE9633F2409923FE8 /* Pods-DemoSDKIos-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		783A6DC8722C12CAEFB587B5CB5E8FA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD6C588130A040E5FEC220CACB5AEF8 /* flutter_nfc_kit-umbrella.h in Headers */,
+				B9DE7F53109C3138DBEDFCD0523883DB /* FlutterNfcKitPlugin.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5D2C0C406E8E862DC3767A592ADDD5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A49DFBC2B4BBBF1E44CEF174031590 /* FlutterPluginRegistrant-umbrella.h in Headers */,
+				BA0E9AB47D5E6B59BE82444D3109185C /* GeneratedPluginRegistrant.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		52E2B1DA783B465802AB8522487ECBDB /* Pods-DemoSDKIos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B68DC9468B2E3A0CD47A9E614C8150AE /* Build configuration list for PBXNativeTarget "Pods-DemoSDKIos" */;
+			buildPhases = (
+				55EF4976BBBFD38921FF8EE1FF034C50 /* Headers */,
+				D98CF968C6A960DB225F8688B5AA8CA1 /* Sources */,
+				C3054375B1E9696FBCE109D30E492D0D /* Frameworks */,
+				38A54DA0ECEE8BC81028A4101E377459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CBE2A5738B2F2C29279820B81C52938 /* PBXTargetDependency */,
+				01D454C6D69356D084B5A77D1C59204E /* PBXTargetDependency */,
+				CD92FB0D5B785EFED60429C8F6DD2A41 /* PBXTargetDependency */,
+			);
+			name = "Pods-DemoSDKIos";
+			productName = Pods_DemoSDKIos;
+			productReference = FC14FEE0F2B25B5637E71644F9E36C27 /* Pods-DemoSDKIos */;
+			productType = "com.apple.product-type.framework";
+		};
+		83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37ABD5EA122415C99CB8F8E44B321580 /* Build configuration list for PBXNativeTarget "FlutterPluginRegistrant" */;
+			buildPhases = (
+				E5D2C0C406E8E862DC3767A592ADDD5F /* Headers */,
+				0925683E4AD85CDFB738295787571ED3 /* Sources */,
+				BC3128F5696DBB7617BB9BEF8E9902E3 /* Frameworks */,
+				985CA988EE369E62452ECF970BCB5741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEEB3369D21F43DF360474541D9AD35E /* PBXTargetDependency */,
+				232C5831328CA7B4EDB287BA307E3F43 /* PBXTargetDependency */,
+			);
+			name = FlutterPluginRegistrant;
+			productName = FlutterPluginRegistrant;
+			productReference = DF7C6EBB9161EEF650EC12B4BB67E628 /* FlutterPluginRegistrant */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA784EBA93CD20A860998BE528FF3D64 /* flutter_nfc_kit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0F1FD1C8C5B8950E6F9F1F97F1F9E6 /* Build configuration list for PBXNativeTarget "flutter_nfc_kit" */;
+			buildPhases = (
+				783A6DC8722C12CAEFB587B5CB5E8FA7 /* Headers */,
+				EFB98FAF28E3EACCE3EA6D5A15F79CE1 /* Sources */,
+				5C3CC51CDD9768F8EA5A1F06F34E7184 /* Frameworks */,
+				C0493588A52234E34C575DBED612F06A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75CB407628D769F4462E3356652E5B2C /* PBXTargetDependency */,
+			);
+			name = flutter_nfc_kit;
+			productName = flutter_nfc_kit;
+			productReference = 9C9E08B8C8A0D9272D48B052D0B32E7F /* flutter_nfc_kit */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9C5E215743F6F0EE6474681BA10B91C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */,
+				CA784EBA93CD20A860998BE528FF3D64 /* flutter_nfc_kit */,
+				83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */,
+				52E2B1DA783B465802AB8522487ECBDB /* Pods-DemoSDKIos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38A54DA0ECEE8BC81028A4101E377459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		985CA988EE369E62452ECF970BCB5741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0493588A52234E34C575DBED612F06A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0925683E4AD85CDFB738295787571ED3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6FD904AF4B2A5663A91761362F6589 /* FlutterPluginRegistrant-dummy.m in Sources */,
+				7E385871DD3A91C128FCA1EAB1A1DA3E /* GeneratedPluginRegistrant.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98CF968C6A960DB225F8688B5AA8CA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FA4FB251ADAA354C6249D855EEF8CD /* Pods-DemoSDKIos-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB98FAF28E3EACCE3EA6D5A15F79CE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A898C5018D0ED645FC90CE6AEC69CA3 /* flutter_nfc_kit-dummy.m in Sources */,
+				7E0B875B48A555A08F738629A737BC7B /* FlutterNfcKitPlugin.m in Sources */,
+				724EF44C9D0AB42F413A699DB84EE3B5 /* SwiftFlutterNfcKitPlugin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01D454C6D69356D084B5A77D1C59204E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlutterPluginRegistrant;
+			target = 83DAA8F43D74F8D51203DE23C7C3A3F5 /* FlutterPluginRegistrant */;
+			targetProxy = 17CFB416BE2D1DF014B1784510EDA1F0 /* PBXContainerItemProxy */;
+		};
+		0CBE2A5738B2F2C29279820B81C52938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 88CAD0F991CE69C37B850BC06A54E71B /* PBXContainerItemProxy */;
+		};
+		232C5831328CA7B4EDB287BA307E3F43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = flutter_nfc_kit;
+			target = CA784EBA93CD20A860998BE528FF3D64 /* flutter_nfc_kit */;
+			targetProxy = 623020CD05E7290D67850C6A7FFF2D23 /* PBXContainerItemProxy */;
+		};
+		75CB407628D769F4462E3356652E5B2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = 4EBCD5CC02F68E00BC4E74E1963B045D /* PBXContainerItemProxy */;
+		};
+		CD92FB0D5B785EFED60429C8F6DD2A41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = flutter_nfc_kit;
+			target = CA784EBA93CD20A860998BE528FF3D64 /* flutter_nfc_kit */;
+			targetProxy = 98AC9A6398DE498A781E624DF96ABD08 /* PBXContainerItemProxy */;
+		};
+		CEEB3369D21F43DF360474541D9AD35E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Flutter;
+			target = 1EFDDC32A34D56D411E640A81DCD9E73 /* Flutter */;
+			targetProxy = C8B8364B1900CC12CBA1BCB73C0E999D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CD717F76C513C6D729D7CE27FDE37A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA7383DBAD7A5632BD8AEA84592A6601 /* Flutter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		600050AE639496F34C4C05EEFEDC66B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FB8D36690CF9EFBBA09A0D886957716 /* Pods-DemoSDKIos.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/apple/fvm/versions/3.22.0/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/apple/fvm/versions/3.22.0/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoSDKIos/Pods-DemoSDKIos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoSDKIos/Pods-DemoSDKIos.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6766691A9128DBC7495B95B60BD56CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8F03B5EFC9B206E9F01FDEA958558FC /* flutter_nfc_kit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/apple/fvm/versions/3.22.0/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/apple/fvm/versions/3.22.0/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_nfc_kit/flutter_nfc_kit-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/flutter_nfc_kit/flutter_nfc_kit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/flutter_nfc_kit/flutter_nfc_kit.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = flutter_nfc_kit;
+				PRODUCT_NAME = flutter_nfc_kit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		823A143809FADF5490DD02010647A1AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA9C66365AC5167765008D3B483036A /* Flutter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86AAE4959B14C6653FD0B87D7F55FBB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE40F050BDE66D1C1D0556AFD030D03A /* Pods-DemoSDKIos.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/apple/fvm/versions/3.22.0/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/apple/fvm/versions/3.22.0/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoSDKIos/Pods-DemoSDKIos-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoSDKIos/Pods-DemoSDKIos.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9AFD907761DA4856F8C9AF12B7BD4C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA6AC67C43EB4C4283715FB212D08DAD /* FlutterPluginRegistrant.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/apple/fvm/versions/3.22.0/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/apple/fvm/versions/3.22.0/bin/cache/artifacts/engine/ios/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = FlutterPluginRegistrant;
+				PRODUCT_NAME = FlutterPluginRegistrant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC452E75B6A7333C157A42F2EC37F791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 489D06E300DE083536EFBEE701506DDF /* flutter_nfc_kit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/apple/fvm/versions/3.22.0/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/apple/fvm/versions/3.22.0/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/flutter_nfc_kit/flutter_nfc_kit-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/flutter_nfc_kit/flutter_nfc_kit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/flutter_nfc_kit/flutter_nfc_kit.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = flutter_nfc_kit;
+				PRODUCT_NAME = flutter_nfc_kit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD8300D29D1028A0478C916692BC0FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 681D5ADE2BF62925E6B4085731EE7558 /* FlutterPluginRegistrant.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphoneos*]" = "$(inherited) armv7";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "$(inherited) i386";
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = (
+					"\"/Users/apple/fvm/versions/3.22.0/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64\"",
+					"$(inherited)",
+				);
+				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = (
+					"\"/Users/apple/fvm/versions/3.22.0/bin/cache/artifacts/engine/ios-release/Flutter.xcframework/ios-arm64_x86_64-simulator\"",
+					"$(inherited)",
+				);
+				GCC_PREFIX_HEADER = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/FlutterPluginRegistrant/FlutterPluginRegistrant.modulemap";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+				);
+				PRODUCT_MODULE_NAME = FlutterPluginRegistrant;
+				PRODUCT_NAME = FlutterPluginRegistrant;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37ABD5EA122415C99CB8F8E44B321580 /* Build configuration list for PBXNativeTarget "FlutterPluginRegistrant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AFD907761DA4856F8C9AF12B7BD4C01 /* Debug */,
+				BD8300D29D1028A0478C916692BC0FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
+				8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0F1FD1C8C5B8950E6F9F1F97F1F9E6 /* Build configuration list for PBXNativeTarget "flutter_nfc_kit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6766691A9128DBC7495B95B60BD56CDC /* Debug */,
+				BC452E75B6A7333C157A42F2EC37F791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B26E11467D023FA6CDCE36F75198812F /* Build configuration list for PBXAggregateTarget "Flutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				823A143809FADF5490DD02010647A1AB /* Debug */,
+				3CD717F76C513C6D729D7CE27FDE37A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B68DC9468B2E3A0CD47A9E614C8150AE /* Build configuration list for PBXNativeTarget "Pods-DemoSDKIos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86AAE4959B14C6653FD0B87D7F55FBB6 /* Debug */,
+				600050AE639496F34C4C05EEFEDC66B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
