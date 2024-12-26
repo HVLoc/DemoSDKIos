@@ -18,7 +18,7 @@ class FlutterManager: ObservableObject {
 
     private init() {
         engine = FlutterEngine(name: "flutter_nfc_engine")
-        engine.run(withEntrypoint: nil, initialRoute: nil)
+        engine.run()
         // Đăng ký plugin (nếu cần)
         GeneratedPluginRegistrant.register(with: engine)
     }

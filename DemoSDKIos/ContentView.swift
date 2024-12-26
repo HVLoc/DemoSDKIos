@@ -18,7 +18,7 @@ struct ContentView: View {
 
     var body: some View {
         VStack(spacing: 20) {
-            Text("Đây là SwiftUI App, không có AppDelegate.")
+            Text("Đây là SwiftUI App")
                 .padding()
 
             Button(action: {
