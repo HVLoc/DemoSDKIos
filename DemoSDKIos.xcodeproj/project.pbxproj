@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		188D1FAB2D297695004F6D57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18AC5F7D2D1BA70C006739DD /* DemoSDKIos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSDKIos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AC5F8E2D1BA70E006739DD /* DemoSDKIosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoSDKIosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18AC5F982D1BA70E006739DD /* DemoSDKIosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoSDKIosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +84,7 @@
 		18AC5F742D1BA70C006739DD = {
 			isa = PBXGroup;
 			children = (
+				188D1FAB2D297695004F6D57 /* Info.plist */,
 				18AC5F7F2D1BA70C006739DD /* DemoSDKIos */,
 				18AC5F912D1BA70E006739DD /* DemoSDKIosTests */,
 				18AC5F9B2D1BA70E006739DD /* DemoSDKIosUITests */,
@@ -133,6 +135,7 @@
 				18AC5F7B2D1BA70C006739DD /* Resources */,
 				0C39E4952FD5743630E13B71 /* [CP] Embed Pods Frameworks */,
 				95C4B4730160A402C7124584 /* [CP-User] Embed Flutter Build module_ekyc Script */,
+				5B1F102EF3B7115A0D453BBD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,6 +275,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoSDKIos/Pods-DemoSDKIos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B1F102EF3B7115A0D453BBD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoSDKIos/Pods-DemoSDKIos-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoSDKIos/Pods-DemoSDKIos-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoSDKIos/Pods-DemoSDKIos-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7BD973BEB01061A1B13E273A /* [CP] Check Pods Manifest.lock */ = {
@@ -483,7 +503,9 @@
 				DEVELOPMENT_TEAM = CLUY5VBG3U;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				"INFOPLIST_FILE[sdk=*]" = "$(SRCROOT)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -527,7 +549,9 @@
 				DEVELOPMENT_TEAM = CLUY5VBG3U;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				"INFOPLIST_FILE[sdk=*]" = "$(SRCROOT)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

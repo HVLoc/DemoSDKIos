@@ -29,7 +29,79 @@
     "Flutter": [
 
     ],
+    "app_settings": [
+
+    ],
+    "audio_session": [
+
+    ],
+    "camera_avfoundation": [
+
+    ],
+    "device_info_plus": [
+
+    ],
     "flutter_nfc_kit": [
+
+    ],
+    "flutter_pdfview": [
+
+    ],
+    "flutter_secure_storage": [
+
+    ],
+    "flutter_tts": [
+
+    ],
+    "fluttertoast": [
+
+    ],
+    "google_mlkit_commons": [
+
+    ],
+    "google_mlkit_face_detection": [
+
+    ],
+    "image_picker_ios": [
+
+    ],
+    "just_audio": [
+
+    ],
+    "local_auth_darwin": [
+
+    ],
+    "mobile_scanner": [
+
+    ],
+    "nfc_manager": [
+
+    ],
+    "package_info_plus": [
+
+    ],
+    "path_provider_foundation": [
+
+    ],
+    "permission_handler": [
+
+    ],
+    "sqflite": [
+
+    ],
+    "syncfusion_flutter_pdfviewer": [
+
+    ],
+    "url_launcher_ios": [
+
+    ],
+    "video_player_avfoundation": [
+
+    ],
+    "wakelock_plus": [
+
+    ],
+    "webview_flutter_wkwebview": [
 
     ]
   }
