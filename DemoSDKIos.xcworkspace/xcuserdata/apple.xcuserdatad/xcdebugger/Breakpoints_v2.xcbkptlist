@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "7E7443A5-04A1-4056-A751-64E36C6F6C2E"
+            uuid = "3D52E88F-503A-4260-9B18-50B2ED57DAE4"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../.pub-cache/hosted/pub.dev/flutter_nfc_kit-3.4.2/ios/Classes/SwiftFlutterNfcKitPlugin.swift"
+            filePath = "DemoSDKIos/EkycFlutterView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
-            landmarkName = "handle(_:result:)"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "makeUIViewController(context:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

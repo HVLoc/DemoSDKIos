@@ -11,15 +11,6 @@ target 'DemoSDKIos' do
   load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
 
   install_all_flutter_pods(flutter_application_path)
-  
-#  target 'DemoSDKIosTests' do
-#    inherit! :search_paths
-#    # Pods for testing
-#  end
-#
-#  target 'DemoSDKIosUITests' do
-#    # Pods for testing
-#  end
 
 end
 
