@@ -21,13 +21,10 @@ struct ContentView: View {
             Spacer()
 
             Button(action: {
-                let payload: [String: Any] = [
-                    "key": "89f797ab-ec41-446a-8dc1-1dfda5e7e93d",
-                    "secretKey": "63f81c69722acaa42f622ec16d702fdb",
-                    "CCCD": "020098007724"
-                ]
-                openFlutterSDK(payload: payload) { result in
-                    userInfo = result
+//                presentCCCDVerificationView(data: ["value": userInfo])
+                openFlutterSDK() { result in
+//                    userInfo = result
+                    presentCCCDVerificationView(data: result)
                 }
             }) {
                 Text("Launch Flutter SDK")
@@ -43,7 +40,7 @@ struct ContentView: View {
         .padding()
     }
 
-    func openFlutterSDK(payload: [String: Any], onReceiveData: @escaping (String) -> Void) {
+    func openFlutterSDK( onReceiveData: @escaping ([String: Any]) -> Void) {
         
         let flutterVC = FlutterViewController(engine: FlutterManager.shared.engine, nibName: nil, bundle: nil)
         flutterVC.modalPresentationStyle = .fullScreen
@@ -52,10 +49,23 @@ struct ContentView: View {
         let methodChannel = FlutterMethodChannel(name: "2id.ekyc", binaryMessenger: flutterVC.binaryMessenger)
         methodChannel.setMethodCallHandler { call, result in
             if call.method == "dataUser" {
-                if let args = call.arguments as? String {
-                    onReceiveData(args)
-                }
-                flutterVC.dismiss(animated: true, completion: nil)
+                if let args = call.arguments as? [String: Any],
+                      let value = args["value"] as? [String: Any] {
+                       print("Received data: \(value)")
+                    // Ẩn Flutter View Controller trước
+                               flutterVC.dismiss(animated: true) {
+                                   // Sau khi dismiss, trình bày màn hình mới
+                                   DispatchQueue.main.async {
+                                       presentCCCDVerificationView(data: value)
+                                   }
+                               }
+//                        onReceiveData(value)
+//                       // Chuyển đổi `value` thành đối tượng hoặc sử dụng trực tiếp
+//                    presentCCCDVerificationView(data: value)
+                   } else {
+                       print("Invalid arguments")
+                   }
+//                flutterVC.dismiss(animated: true, completion: nil)
                 result("Data received")
             }
             else if call.method == "setInitial" {
