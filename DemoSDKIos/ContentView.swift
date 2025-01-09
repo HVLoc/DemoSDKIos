@@ -21,9 +21,7 @@ struct ContentView: View {
             Spacer()
 
             Button(action: {
-//                presentCCCDVerificationView(data: ["value": userInfo])
                 openFlutterSDK() { result in
-//                    userInfo = result
                     presentCCCDVerificationView(data: result)
                 }
             }) {
@@ -56,7 +54,7 @@ struct ContentView: View {
                                flutterVC.dismiss(animated: true) {
                                    // Sau khi dismiss, trình bày màn hình mới
                                    DispatchQueue.main.async {
-                                       presentCCCDVerificationView(data: value)
+                                       onReceiveData(value)
                                    }
                                }
 //                        onReceiveData(value)
@@ -73,7 +71,7 @@ struct ContentView: View {
                 let payload: [String: Any] = [
                     "key": "89f797ab-ec41-446a-8dc1-1dfda5e7e93d",
                     "secretKey": "63f81c69722acaa42f622ec16d702fdb",
-                    "CCCD": "020098007724"
+                    "isProd": false
                 ]
                 
                 if let jsonData = try? JSONSerialization.data(withJSONObject: payload),
