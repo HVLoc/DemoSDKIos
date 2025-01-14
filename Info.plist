@@ -97,5 +97,7 @@
     <array>
         <string>_dartobservatory._tcp</string>
     </array>
+    <key>NSDocumentsUsageDescription</key>
+    <string>Ứng dụng cần truy cập vào thư mục tài liệu.</string>
 </dict>
 </plist>

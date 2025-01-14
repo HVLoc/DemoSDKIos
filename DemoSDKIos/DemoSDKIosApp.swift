@@ -10,12 +10,12 @@ import SwiftUI
 @main
 struct DemoSDKIosApp: App {
     // Khởi tạo FlutterManager (có FlutterEngine)
-    @StateObject var flutterManager = FlutterManager.shared
+//    @StateObject var flutterManager = FlutterManager.shared
 
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(flutterManager)
+//                .environmentObject(flutterManager)
         }
     }
 }
